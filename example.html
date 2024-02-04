@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./example css/style.css">
+</head>
+
+<body>
+    <nav class="breadcrumbs">
+        <ul>
+            <li><a href="#">home</a></li> <!--option+shift+down=copy the line of code-->
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Socks</a></li>
+        </ul>
+    </nav>
+    <h1 class="product_title">Union Jack Socks</h1>
+    <section class="row"> <!--Section takes the whole space of the line-->
+        <div class="pictures">
+            <img src="./images/sock.jpeg" alt="Union Jack Socks" width=100%>
+        </div>
+        <div class="pictures">
+            <img src="./images/2.jpeg" alt="Union Jack Socks" width=100%>
+        </div>
+        <div class="pictures">
+            <img src="./images/3.jpeg" alt="Union Jack Socks" width=100%>
+        </div>
+
+    </section>
+
+    <section class="product-options">
+        <div class="size-button">
+            <button>6-10</button>
+            <button>10.5-13</button>
+        </div>
+        <div class="quantity-button">
+            <label for="quantity" id="quantity"></label>
+            <select name="quantity" id="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+    </section>
+    <p id="price">Price:$100.00</p>
+    <div class="add-to-bag-button">
+        <button>Add to bag</button>
+    </div>
+    <section class="product-discreption">
+        <h2>Prodcut Description</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nulla praesentium sapiente voluptate sequi
+            quos amet aliquam placeat nobis eligendi?</p>
+        <ul>
+            <li>97% Cotton 3% Cement</li>
+            <li>Machine Washable</li>
+            <li>Official Pokemon Product</li>
+            <li>Big toe smoothing</li>
+        </ul>
+    </section>
+
+    <table class="delivery-option"> <!--Consist of Thead, Tbody, Tfoot-->
+        <thead> <!--THEAD>TR>TH-->
+            <tr>
+                <th>Delivery Option</th>
+                <th>Price</th>
+                <th>Estimated Delivery Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Standard Delivery</td>
+                <td>$4.99</td>
+                <td>3-5 Working Day</td>
+            </tr>
+            <tr>
+                <td>Next Day Delivery</td>
+                <td>$8.99</td>
+                <td>Next Working Day</td>
+            </tr>
+            <tr>
+                <td>Click & Collect</td>
+                <td>$1</td>
+                <td>Same Day</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <section class="customer-review">
+        <h2>Customer Reviews</h2>
+        <article>
+            <h3>James</h3>
+            <p>★☆☆☆☆</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article>
+            <h3>Jordan</h3>
+            <p>★★☆☆☆</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article>
+            <h3>Mark</h3>
+            <p>★★★★☆</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+    </section>
+
+</body>
+
+</html>
