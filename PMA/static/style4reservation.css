@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+  }
+  
+  .content {
+    width: 90%; /* Adjust based on your preference */
+    max-width: 600px; /* Maximum width of the form container */
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    margin: 0 10px;
+  }

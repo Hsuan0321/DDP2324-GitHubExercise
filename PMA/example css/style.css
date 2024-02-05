@@ -1,0 +1,104 @@
+body {
+    font-family: arial, helvetice, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: grey;
+    background-color: white;
+}
+
+
+.breadcrumbs ul {
+    list-style: none;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.breadcrumbs ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.prodcut-title {
+    text-align: center;
+    margin-top: 20px;
+    color: darkred;
+}
+
+.quantity-button {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.size-button button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;   
+}
+.size-button{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.add-to-bag-button button{
+    background-color: green;
+}
+
+.add-to-bag-button{
+    text-align: center;
+}
+
+#price {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.product-discreption,
+.delivery-option,
+.customer-review {
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.delivery-option {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.delivery-option,
+.delivery-option th,
+.delivery-option td {
+    border: 1px solid black
+}
+
+.delivery-option,
+.delivery-option th,
+.delivery-option td {
+    padding: 8px;
+    text-align: center;
+}
+
+.customer-review {
+    background-color: #eee;
+    padding: 15px;
+    margin: bottom 10px;
+
+}
+
+.pictures {
+    float: left;
+    width: 30%;
+    padding: 2px;
+    display: block
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
